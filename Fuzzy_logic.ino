@@ -10,11 +10,11 @@ CTBot myBot;
 const char *ssid =  "Kantor";    
 const char *pass =  "tanyasajidyeah";
 const char* server = "api.thingspeak.com";
-String token = "6151767448:AAFyimshv6633LQbEvQ3FNGtfYqaYJlj3GQ"; //token telegram
+String token = ""; //token telegram
 
 WiFiClient client;
 unsigned long myChannelNumber = 1587676;
-const char * myWriteAPIKey = "O5OB9IF2L3P24DD5";
+const char * myWriteAPIKey = "";
 
 #define DHTPIN D1         
 DHT dht(DHTPIN, DHT22);
